@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Regex" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FFF200</item>
+    </style>
+
+    <style name="Theme.Regex" parent="Base.Theme.Regex" />
+
+    <style name="botones" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/btn_forma</item>
+        <item name="backgroundTint">@color/btns</item>
+    </style>
+
+</resources>
